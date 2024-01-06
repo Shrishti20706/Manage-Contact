@@ -9,7 +9,9 @@ export default function ContactList(props) {
             <div className='contacts'>
                 <div>{val.data.name}</div>
                 <div>{val.data.email}</div>
+                <div>{val.data.phone}</div>
                 <span onClick={()=>remcont(val.id)}><DeleteIcon></DeleteIcon></span>
+                
             </div>
 
         )

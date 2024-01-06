@@ -31,11 +31,13 @@ function App() {
 
     setContact(updatedList);
   }
+
+  
   return (
     <div className='App'>
     <Header />
     <AddContact addCont={addContact}/>
-    <ContactList cont={contact} remcont={removeContact}/>
+    <ContactList cont={contact} remcont={removeContact} />
     </div>
   );
 }
