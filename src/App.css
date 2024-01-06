@@ -2,37 +2,67 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.header{
+  text-align: center;
+  background: linear-gradient(80deg,rgb(89, 89, 228),purple);
+  padding: 20px;
+  font-size: 30px;
+  color: aliceblue;
+  font-weight: 600;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.adddiv{
+  background-color:rgb(188, 225, 241);
+  margin: 60px 250px;
+  height: 60vh;
+  text-align: center;
+  font-weight: 600;
+  font-size: 20px;
+  border-radius: 5px;
+  
+
+
+}
+.addheading{
+  padding:20px;
+  font-family: Arial, Helvetica, sans-serif;
+
+
+}
+form>input{
+  padding: 5px ;
+  margin:20px
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.addbtn{
+  background-color: rgb(134, 77, 175);
+  color: aliceblue;
+  padding: 10px ;
+  border-radius: 5px;
+  border-color: rgb(122, 88, 147);
+  margin-top: 100px;
+}
+
+.contactHeader{
+  text-align: center;
+  font-size: 25px;
+  font-weight: 600;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.contacts{
+  background-color: rgb(178, 178, 235);
+  padding: 10px;
+  font-size: 20px;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  flex-direction: row;
+  justify-content: space-between;
+  margin:10px 20px;
+  border-radius: 5px;
 }
-
-.App-link {
-  color: #61dafb;
+.contacts>div{
+  width: 200px;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.contacts>span{
+  cursor: pointer;
 }
