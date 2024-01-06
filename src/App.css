@@ -46,7 +46,8 @@ form>input{
   padding: 10px ;
   border-radius: 5px;
   border-color: rgb(122, 88, 147);
-  margin-top: 100px;
+  margin-top: 90px;
+  margin-bottom: 20px;
 }
 
 .contactHeader{
@@ -78,10 +79,13 @@ form>input{
   .adddiv{
     margin: 60px 50px;
     overflow: hidden;
+    height: auto;
 
   }
   .contacts{
     flex-direction: column;
+    width: 100%;
+    margin: 10px 0px;
     align-items: center;
 
   }
